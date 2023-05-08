@@ -1,4 +1,4 @@
-from courserecommend import *
+from courserecommend import showElectives
 from electives import *
 
 def test_showElectives():
