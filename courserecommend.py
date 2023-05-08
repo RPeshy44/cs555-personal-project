@@ -65,6 +65,7 @@ def showElectives():
 
     return electivesList
 
-# Calling the two functions
-getInput()
-showElectives()
+if __name__ == '__main__':
+    # Calling the two functions
+    getInput()
+    showElectives()
