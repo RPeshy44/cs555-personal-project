@@ -22,7 +22,10 @@ def getInput():
 
     # Continuously asks the user to provide the course code for a course that they have taken until they enter "DONE".
     while userInput != "DONE":
-        userInput = input("Enter a course: ")
+        try:
+            userInput = input("Enter a course: ")
+        except EOFError:
+            break
         if userInput != "DONE":
             userList.append(userInput)
 
