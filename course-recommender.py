@@ -60,7 +60,7 @@ def showElectives():
     print("Please note that any courses that appear in both categories (Software Development Electives and Technical Electives) can only be used as credit for one category or the other, not both.")
     print("")
 
-    return 1
+    return electivesList
 
 # Calling the two functions
 getInput()
